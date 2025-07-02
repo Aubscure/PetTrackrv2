@@ -10,7 +10,7 @@ Explanation: Imagine you're following a recipe. You do step 1, then step 2, then
 - **Example:** The setup and initialization code in `backend/data/pets_db.py` and `frontend/gui.py` runs sequentially.
 - **Code Reference:**
   backend/data/vaccinations_db.py
-  with sqlite3.connect(self.db_path) as conn:
+  with sqlite3.connect(self.db_path) as conn: #Explanation: This line connects to a database. Think of it like opening a file cabinet where you keep all your important papers. sqlite3.connect(self.db_path) is the command to open the cabinet, and as conn means we're giving it a nickname "conn" so we can refer to it easily.
   cursor = conn.cursor()
   cursor.execute('''
   CREATE TABLE IF NOT EXISTS vaccinations (

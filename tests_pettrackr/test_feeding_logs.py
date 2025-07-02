@@ -1,3 +1,4 @@
+# filepath: d:\codes\Giedel\Python-GUI\PetTrackr\tests_pettrackr\test_get_both_records.py(for pets with feeding logs)
 from backend.controllers.pet_controller import PetController
 from backend.controllers.feeding_log_controller import FeedingLogController
 

@@ -1,4 +1,4 @@
-# filepath: d:\codes\Giedel\Python-GUI\PetTrackr\tests_pettrackr\test_get_both_records.py
+# filepath: d:\codes\Giedel\Python-GUI\PetTrackr\tests_pettrackr\test_get_both_records.py(for pets with vaccination OR vet visit records)
 
 from backend.controllers.pet_controller import PetController
 from backend.controllers.vaccination_controller import VaccinationController

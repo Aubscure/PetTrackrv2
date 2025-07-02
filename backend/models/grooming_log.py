@@ -1,3 +1,5 @@
+# grooming_log.py
+# File: backend/models/grooming_log.py
 from datetime import datetime
 
 class GroomingLog:
