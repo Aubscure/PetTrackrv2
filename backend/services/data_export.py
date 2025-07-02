@@ -13,6 +13,8 @@ def export_pets_to_txt(pets, filename="export-import/pets_export.txt"):
 def export_pets_to_txt_from_db(
     db_path="backend/data/pets.db",
     output_path="export-import/pets_export.txt"
+
+    
 ):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     # Connect to the SQLite database
